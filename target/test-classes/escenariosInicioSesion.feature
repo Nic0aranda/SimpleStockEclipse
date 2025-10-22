@@ -10,4 +10,3 @@ Then te rediriges a la pagina "http://localhost/control/stock.php"
 Examples:
 | usuario | password|
 | admin	  | admin   |
-
