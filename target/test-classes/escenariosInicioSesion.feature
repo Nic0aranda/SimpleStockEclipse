@@ -46,11 +46,11 @@ Examples:
 #| 	  	   | 		 |
 
 Scenario: Inicio de sesión con un usuario no existente.
-Given al navegar a la pagina de inicio de sesion "http://localhost/control/login.php?logout"
+Given al navegar a la pagina de inicio de sesion "http://localhost/control/login.php"
 And el usuario tiene una cuenta existente
 When coloca en el campo Usuario "<usuario>" y en campo contraseña "<password>"
 And hacer click en el boton Iniciar sesion
-Then te rediriges a la pagina "http://localhost/control/login.php"	
+Then te rediriges a la pagina "http://localhost/control/stock.php"	
 
 Examples:
 | usuario | password|
