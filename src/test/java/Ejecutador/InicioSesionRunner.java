@@ -7,6 +7,6 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features={"./src/test/resources/Features/escenariosInicioSesion.feature"}, glue= {"InicioDeSesion"})
-public class Runner {
+public class InicioSesionRunner {
  
 }
