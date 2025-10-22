@@ -123,6 +123,16 @@ public class RegistroUsuarios {
 		Assert.assertTrue(userText.contains("pedro"));
 	}
 	
+	@Then("el usuario nuevo no se veria en la tabla de usuarios")
+	public void el_usuario_nuevo_no_se_veria_en_la_tabla_de_usuarios() {
+		String xpath = "/html/body/div[1]/div/div[2]/div[5]/div/table";
+		
+		WebElement user = driver.findElement(By.xpath(xpath));
+		Assert.assertTrue(user.isDisplayed());
+		String userText = user.getText();
+		Assert.assertFalse(userText.contains("pedro"));
+	}
+	
 	@When("coloca una contraseña no valida {string}")
 	public void coloca_una_contraseña_no_valida(String string) {
 		driver.findElement(By.xpath(string)).click();
