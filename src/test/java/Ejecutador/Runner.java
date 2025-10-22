@@ -15,7 +15,7 @@ import io.cucumber.junit.CucumberOptions;
 		"BuscarUsuarios",
 		"buscarCategoria",
 		"RegistroUsuarios",
-		"buscarInventario")
+		"BuscarInventario"})
 public class Runner {
 
 }

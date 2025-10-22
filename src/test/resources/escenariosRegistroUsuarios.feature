@@ -23,8 +23,8 @@ And coloca un email valido en "//*[@id=\"user_email\"]"
 And coloca una contraseña no valida "//*[@id=\"user_password_new\"]"
 And coloca denuevo la contraseña equivocada"//*[@id=\"user_password_repeat\"]"
 And apreta el boton "//*[@id=\"guardar_datos\"]"
-#no logramos localizar el pop-up que genera esta prueba
-Then deberia de verse un mensaje de error
+And apreta el boton "//*[@id=\"myModal\"]/div/div/div[3]/button[1]"
+Then el usuario nuevo no se veria en la tabla de usuarios
 
 Scenario: Registro de usuario campos en blanco.
 Given dado que el usuario se encuentra en la cuenta admin

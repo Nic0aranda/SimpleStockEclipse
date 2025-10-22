@@ -1,4 +1,4 @@
-package inicioDeSesion;
+package InicioDeSesion;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
