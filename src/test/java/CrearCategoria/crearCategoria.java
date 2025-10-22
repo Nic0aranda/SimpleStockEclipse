@@ -4,7 +4,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
