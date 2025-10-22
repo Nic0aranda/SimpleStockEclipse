@@ -10,8 +10,6 @@ Then te rediriges a la pagina "http://localhost/control/stock.php"
 Examples:
 | usuario | password|
 | admin	  | admin   |
-<<<<<<< HEAD
-=======
 
 Scenario: Inicio de sesion utilizando usuario correcto pero contraseña incorrecta.
 Given al navegar a la pagina de inicio de sesion "http://localhost/control/login.php?logout"
@@ -57,4 +55,3 @@ Then te rediriges a la pagina "http://localhost/control/login.php"
 Examples:
 | usuario | password|
 | pepito  | admin	|
->>>>>>> 1a417326b4276c67fe5c4d7cac96afd1bb59db01
