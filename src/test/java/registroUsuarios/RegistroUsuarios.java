@@ -115,7 +115,7 @@ public class RegistroUsuarios {
 
 	@Then("el usuario nuevo se veria en la tabla de usuarios")
 	public void el_usuario_nuevo_se_veria_en_la_tabla_de_usuarios() {
-		String xpath = "/html/body/div[1]/div/div[2]/div[5]/div/table";
+		String xpath = "/html/body/div[1]/div/div[2]/div[5]/div/table/tbody";
 		
 		WebElement user = driver.findElement(By.xpath(xpath));
 		Assert.assertTrue(user.isDisplayed());

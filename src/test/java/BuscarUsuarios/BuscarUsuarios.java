@@ -1,4 +1,4 @@
-package BuscarUsuarios;
+package buscarUsuarios;
 
 import java.util.concurrent.TimeUnit;
 

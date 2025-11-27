@@ -1,4 +1,4 @@
-package InicioDeSesion;
+package inicioDeSesion;
 
 import java.util.concurrent.TimeUnit;
 
