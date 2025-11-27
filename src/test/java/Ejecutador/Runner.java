@@ -17,7 +17,12 @@ import io.cucumber.junit.CucumberOptions;
 		"buscarCategoria",
 		"buscarInventario",
 		"RegistroUsuarios",
-		"BuscarInventario"})
+		"BuscarInventario"},
+		plugin = {
+                "pretty",
+                "html:target/cucumber-reports.html",
+                "json:target/cucumber-reports.json"
+        })
 public class Runner {
-
+	
 }
